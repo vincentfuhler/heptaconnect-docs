@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="533px" preserveAspectRatio="none" style="width:919px;height:533px;" version="1.1" viewBox="0 0 919 533" width="919px" zoomAndPan="magnify"><defs/><g><!--MD5=[cf6bc0e4fe401a9a5aff4c30b2cb2b2c]
+entity BSP--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="223" x="17.5" y="6"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="203" x="27.5" y="28.9951">Bridge-ShopwarePlatform</text><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="58" x="145" y="198"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="155" y="220.9951">Core</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="124" x="407" y="486"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="417" y="508.9951">Dataset-Base</text><!--MD5=[9588a41f81df83122e454b7a1572a85d]
+entity DE--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="178" x="503" y="198"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="158" x="513" y="220.9951">Dataset-Ecommerce</text><!--MD5=[e9da69f9096b465755ae5bc34a69338b]
+entity DPL--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="217" x="593.5" y="390"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="197" x="603.5" y="412.9951">Dataset-PhysicalLocation</text><!--MD5=[ea87969fc35f1ca5453e0a1ca338bac3]
+entity DP--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="148" x="522" y="294"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="532" y="316.9951">Dataset-Product</text><!--MD5=[1a416c3156d55d9446032ebbee093b81]
+entity DS--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="132" x="776" y="294"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="112" x="786" y="316.9951">Dataset-Social</text><!--MD5=[e822cafa1e336809f6740c6a8c98cf92]
+entity PB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="110" x="272" y="390"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="282" y="412.9951">Portal-Base</text><!--MD5=[2b3a42ba0b113a70d152b73cf5d32097]
+entity PBC--><rect fill="#007AFF" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="200" x="233" y="102"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="180" x="243" y="124.9951">Portal-BusinessCentral</text><!--MD5=[b3ed3813077a51c88679886e83829136]
+entity PSP--><rect fill="#007AFF" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="218" x="480" y="102"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="490" y="124.9951">Portal-ShopwarePlatform</text><!--MD5=[db5ca709379f12a280ab2b7d6533fd7d]
+entity SB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="126" x="6" y="294"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="16" y="316.9951">Storage-Base</text><!--MD5=[1d3bfd7e31446e94794a1187d983a193]
+link C to SB--><path d="M154.74,234.24 C140.31,247.16 120.19,265.18 103.06,280.51 " fill="none" id="C-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="107.71,285.74,88.14,293.87,98.37,275.31,107.71,285.74" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c001c3ef6c24fd1ce8030961eb1d4110]
+link C to PB--><path d="M187.85,234.2 C213.28,265.78 267.81,333.5 300.55,374.16 " fill="none" id="C-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="306.2,370.01,313.29,389.98,295.3,378.79,306.2,370.01" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[252be5cba428362d8555cb763104b44a]
+link C to DB--><path d="M175.76,234.23 C180.7,273.69 198.19,371.38 254,426 C289.88,461.11 342.86,480.32 387.24,490.78 " fill="none" id="C-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="388.85,483.96,406.94,494.99,385.92,497.65,388.85,483.96" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[9a1b6060a1cb265d2c4177608208a87e]
+link DE to DB--><path d="M564.32,234.04 C544.54,247.73 519.04,268.8 505,294 C474.77,348.24 468.75,421.72 468.16,465.55 " fill="none" id="DE-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="475.16,465.74,468.25,485.77,461.16,465.8,475.16,465.74" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[650e2e50002a328a4f535861a376c976]
+link DPL to DB--><path d="M659.81,426.02 C623.55,440.65 570.81,461.93 529.96,478.41 " fill="none" id="DPL-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="532.44,484.95,511.27,485.95,527.2,471.97,532.44,484.95" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[4a92d8fa351291173d6f0d273b81b623]
+link DP to DB--><path d="M584.51,330.2 C563.54,361.57 518.74,428.59 491.5,469.33 " fill="none" id="DP-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="497.31,473.24,480.38,485.98,485.67,465.46,497.31,473.24" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[b2a9c073d02194269c3386a5ee08852e]
+link DS to DB--><path d="M845.38,330.03 C849.19,354.55 852.03,399.76 828,426 C791.44,465.92 645.37,486.77 551.19,496.27 " fill="none" id="DS-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="551.65,503.26,531.07,498.21,550.31,489.33,551.65,503.26" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[316c629f644afab5480ddc4d6606ec3a]
+link DS to DPL--><path d="M816.65,330.02 C796.55,343.51 768.04,362.66 744.47,378.48 " fill="none" id="DS-&gt;DPL" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="748.14,384.45,727.64,389.79,740.34,372.83,748.14,384.45" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[23e40ab4dc0ad45d347e0edf415b3b2e]
+link DP to DPL--><path d="M615.44,330.24 C630.01,343.16 650.33,361.18 667.61,376.51 " fill="none" id="DP-&gt;DPL" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="672.36,371.36,682.68,389.87,663.07,381.84,672.36,371.36" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[0efcd19f695476697762562db16295c9]
+link DE to DPL--><path d="M624.29,234.01 C646.08,247.3 673.42,267.88 688,294 C700.78,316.9 704.08,346.42 704.28,369.55 " fill="none" id="DE-&gt;DPL" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="711.27,369.9,703.72,389.69,697.28,369.5,711.27,369.9" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[97a8706820d1c7a86d3768d66eec35e6]
+link DE to DP--><path d="M592.73,234.24 C593.2,245.24 593.83,259.93 594.4,273.51 " fill="none" id="DE-&gt;DP" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="601.41,273.59,595.27,293.87,587.43,274.18,601.41,273.59" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[b830fd844a13e13c66994dafd85c9e16]
+link DE to DS--><path d="M637.27,234.02 C676.53,248.78 733.79,270.31 777.78,286.85 " fill="none" id="DE-&gt;DS" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="780.39,280.35,796.64,293.95,775.46,293.46,780.39,280.35" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[fec5fc7bf060aedac02b8b80a51e7c94]
+link SB to DB--><path d="M77.81,330.1 C91.63,355.14 120.8,401.47 159,426 C227.99,470.3 320.7,489.12 386.71,497.1 " fill="none" id="SB-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="387.59,490.16,406.71,499.29,386.07,504.08,387.59,490.16" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[33d5fb6e37b9c96575a93ca647db8f71]
+link SB to PB--><path d="M115.72,330.02 C156.42,344.85 215.86,366.51 261.34,383.08 " fill="none" id="SB-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="263.8,376.52,280.19,389.95,259,389.68,263.8,376.52" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[4cfa9f1827bbf7e1259e4f801ac78879]
+link PB to DB--><path d="M352.72,426.02 C373.2,439.58 402.3,458.85 426.27,474.72 " fill="none" id="PB-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="430.18,468.91,443,485.79,422.46,480.58,430.18,468.91" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[7a446722bf7e1538dda033e04e72644f]
+link PBC to PB--><path d="M332.64,138.03 C331.69,183.23 329.1,307.01 327.78,369.64 " fill="none" id="PBC-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="334.78,369.84,327.36,389.69,320.78,369.55,334.78,369.84" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[82dbc23f4ac1866f6121367345dd707e]
+link PBC to DE--><path d="M379.9,138.02 C420.76,152.85 480.43,174.51 526.08,191.08 " fill="none" id="PBC-&gt;DE" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="528.6,184.54,545.01,197.95,523.82,197.7,528.6,184.54" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[dde5c5b5b4ac14c78e0d812422b6c40c]
+link PSP to PB--><path d="M562,138.13 C540.22,152.63 509.46,174.73 486,198 C430.02,253.51 377.13,329.38 348.69,372.78 " fill="none" id="PSP-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="354.46,376.74,337.74,389.75,342.7,369.15,354.46,376.74" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[a292ad2b98cae7c241d897e4b720707c]
+link PSP to DE--><path d="M589.55,138.24 C589.9,149.24 590.37,163.93 590.8,177.51 " fill="none" id="PSP-&gt;DE" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="597.81,177.66,591.45,197.87,583.82,178.1,597.81,177.66" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[a43f3c5fb6f989a27eb815b1c6411e7c]
+link BSP to C--><path d="M133.07,42.2 C140.32,72.79 155.6,137.29 165.3,178.26 " fill="none" id="BSP-&gt;C" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="172.17,176.9,169.97,197.98,158.55,180.13,172.17,176.9" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c4724972b4ba11adc466286957bf362f]
+link BSP to SB--><path d="M125.43,42.03 C115.92,87.33 89.86,211.55 76.75,274.05 " fill="none" id="BSP-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="83.59,275.56,72.63,293.69,69.89,272.68,83.59,275.56" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[50e7874526b0d69d56d24d0488eb68e2]
+@startuml packageStructurePortals
+!include style.puml
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Dataset-Base" as DB
+rectangle "Dataset-Ecommerce" as DE
+rectangle "Dataset-PhysicalLocation" as DPL
+rectangle "Dataset-Product" as DP
+rectangle "Dataset-Social" as DS
+rectangle "Portal-Base" as PB
+rectangle "Portal-BusinessCentral" as PBC #007aff
+rectangle "Portal-ShopwarePlatform" as PSP #007aff
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+C - -|> DB
+DE - -|> DB
+DPL - -|> DB
+DP - -|> DB
+DS - -|> DB
+DS - -|> DPL
+DP - -|> DPL
+DE - -|> DPL
+DE - -|> DP
+DE - -|> DS
+SB - -|> DB
+SB - -|> PB
+PB - -|> DB
+PBC - -|> PB
+PBC - -|> DE
+PSP - -|> PB
+PSP - -|> DE
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+@startuml packageStructurePortals
+
+skinparam shadowing false
+
+skinparam RectangleBackgroundColor #3c3c3c
+skinparam RectangleBorderColor #3c3c3c
+skinparam RectangleFontColor white
+skinparam RectangleFontName Arial
+skinparam RectangleFontStyle bold
+
+skinparam NodeBackgroundColor #5f5e5e
+skinparam NodeBorderColor #3c3c3c
+skinparam NodeFontColor white
+skinparam NodeFontName Arial
+skinparam NodeFontStyle bold
+
+skinparam FolderBorderColor #3c3c3c
+skinparam FolderFontColor #3c3c3c
+skinparam FolderFontName Arial
+skinparam FolderFontStyle bold
+
+skinparam ArrowColor #3c3c3c
+skinparam ArrowThickness 2
+
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Dataset-Base" as DB
+rectangle "Dataset-Ecommerce" as DE
+rectangle "Dataset-PhysicalLocation" as DPL
+rectangle "Dataset-Product" as DP
+rectangle "Dataset-Social" as DS
+rectangle "Portal-Base" as PB
+rectangle "Portal-BusinessCentral" as PBC #007aff
+rectangle "Portal-ShopwarePlatform" as PSP #007aff
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+C - -|> DB
+DE - -|> DB
+DPL - -|> DB
+DP - -|> DB
+DS - -|> DB
+DS - -|> DPL
+DP - -|> DPL
+DE - -|> DPL
+DE - -|> DP
+DE - -|> DS
+SB - -|> DB
+SB - -|> PB
+PB - -|> DB
+PBC - -|> PB
+PBC - -|> DE
+PSP - -|> PB
+PSP - -|> DE
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

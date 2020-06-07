@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="402px" preserveAspectRatio="none" style="width:240px;height:402px;" version="1.1" viewBox="0 0 240 402" width="240px" zoomAndPan="magnify"><defs/><g><!--MD5=[cf6bc0e4fe401a9a5aff4c30b2cb2b2c]
+entity BSP--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="223" x="6" y="6"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="203" x="16" y="28.9951">Bridge-ShopwarePlatform</text><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="58" x="42.5" y="163"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="52.5" y="185.9951">Core</text><!--MD5=[e822cafa1e336809f6740c6a8c98cf92]
+entity PB--><rect fill="#007AFF" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="110" x="40.5" y="355"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="50.5" y="377.9951">Portal-Base</text><!--MD5=[db5ca709379f12a280ab2b7d6533fd7d]
+entity SB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="126" x="90.5" y="259"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="100.5" y="281.9951">Storage-Base</text><!--MD5=[1d3bfd7e31446e94794a1187d983a193]
+link C to SB--><path d="M86.54,199.24 C97.29,211.56 112.08,228.52 125.03,243.37 " fill="none" id="C-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="130.68,239.2,138.56,258.87,120.13,248.4,130.68,239.2" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c001c3ef6c24fd1ce8030961eb1d4110]
+link C to PB--><path d="M70.15,199.35 C68.76,221.63 67.44,261.44 72.5,295 C74.54,308.52 78.39,322.98 82.36,335.67 " fill="none" id="C-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="89.08,333.7,88.87,354.89,75.82,338.19,89.08,333.7" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[33d5fb6e37b9c96575a93ca647db8f71]
+link SB to PB--><path d="M142.86,295.24 C135.59,307.03 125.69,323.07 116.82,337.44 " fill="none" id="SB-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="122.53,341.52,106.07,354.87,110.62,334.17,122.53,341.52" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[a43f3c5fb6f989a27eb815b1c6411e7c]
+link BSP to C--><path d="M112.4,42.18 C105.18,66.5 91.81,111.58 82.32,143.55 " fill="none" id="BSP-&gt;C" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="89.02,145.56,76.62,162.74,75.6,141.58,89.02,145.56" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c4724972b4ba11adc466286957bf362f]
+link BSP to SB--><path d="M119.97,42.25 C125.77,82.65 140.32,184.12 148.21,239.14 " fill="none" id="BSP-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="155.15,238.17,151.06,258.96,141.29,240.16,155.15,238.17" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[eea9e531959c8932f6063b4e8a795a30]
+@startuml packageStructurePortalBase
+!include style.puml
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Portal-Base" as PB #007aff
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+SB - -|> PB
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+@startuml packageStructurePortalBase
+
+skinparam shadowing false
+
+skinparam RectangleBackgroundColor #3c3c3c
+skinparam RectangleBorderColor #3c3c3c
+skinparam RectangleFontColor white
+skinparam RectangleFontName Arial
+skinparam RectangleFontStyle bold
+
+skinparam NodeBackgroundColor #5f5e5e
+skinparam NodeBorderColor #3c3c3c
+skinparam NodeFontColor white
+skinparam NodeFontName Arial
+skinparam NodeFontStyle bold
+
+skinparam FolderBorderColor #3c3c3c
+skinparam FolderFontColor #3c3c3c
+skinparam FolderFontName Arial
+skinparam FolderFontStyle bold
+
+skinparam ArrowColor #3c3c3c
+skinparam ArrowThickness 2
+
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Portal-Base" as PB #007aff
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+SB - -|> PB
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

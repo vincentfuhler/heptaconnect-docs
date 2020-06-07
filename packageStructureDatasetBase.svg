@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="498px" preserveAspectRatio="none" style="width:273px;height:498px;" version="1.1" viewBox="0 0 273 498" width="273px" zoomAndPan="magnify"><defs/><g><!--MD5=[cf6bc0e4fe401a9a5aff4c30b2cb2b2c]
+entity BSP--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="223" x="35.3" y="6"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="203" x="45.3" y="28.9951">Bridge-ShopwarePlatform</text><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="58" x="71.8" y="163"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="81.8" y="185.9951">Core</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><rect fill="#007AFF" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="124" x="44.8" y="451"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="54.8" y="473.9951">Dataset-Base</text><!--MD5=[e822cafa1e336809f6740c6a8c98cf92]
+entity PB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="110" x="51.8" y="355"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="61.8" y="377.9951">Portal-Base</text><!--MD5=[db5ca709379f12a280ab2b7d6533fd7d]
+entity SB--><rect fill="#3C3C3C" height="36.2969" style="stroke: #3C3C3C; stroke-width: 1.5;" width="126" x="136.8" y="259"/><text fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="146.8" y="281.9951">Storage-Base</text><!--MD5=[1d3bfd7e31446e94794a1187d983a193]
+link C to SB--><path d="M118.96,199.24 C132.35,211.96 150.96,229.62 166.94,244.8 " fill="none" id="C-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="172.07,240.02,181.76,258.87,162.43,250.17,172.07,240.02" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c001c3ef6c24fd1ce8030961eb1d4110]
+link C to PB--><path d="M101.34,199.2 C102.31,229.72 104.34,294 105.63,334.97 " fill="none" id="C-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="112.63,334.77,106.26,354.98,98.63,335.21,112.63,334.77" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[252be5cba428362d8555cb763104b44a]
+link C to DB--><path d="M87.33,199.08 C60.66,235.09 6,321.27 33.8,391 C40.86,408.71 54.14,424.69 67.46,437.44 " fill="none" id="C-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="72.32,432.38,82.75,450.83,63.09,442.91,72.32,432.38" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[fec5fc7bf060aedac02b8b80a51e7c94]
+link SB to DB--><path d="M199.79,295.04 C199.12,318.02 195.58,359.69 179.8,391 C171.1,408.26 157.26,424.31 143.97,437.24 " fill="none" id="SB-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="148.46,442.61,128.95,450.87,139.05,432.25,148.46,442.61" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[33d5fb6e37b9c96575a93ca647db8f71]
+link SB to PB--><path d="M182.74,295.24 C170.29,307.83 153.05,325.26 138.14,340.32 " fill="none" id="SB-&gt;PB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="142.79,345.57,123.75,354.87,132.84,335.73,142.79,345.57" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[4cfa9f1827bbf7e1259e4f801ac78879]
+link PB to DB--><path d="M106.8,391.24 C106.8,402.24 106.8,416.93 106.8,430.51 " fill="none" id="PB-&gt;DB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="113.8,430.87,106.8,450.87,99.8,430.87,113.8,430.87" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[a43f3c5fb6f989a27eb815b1c6411e7c]
+link BSP to C--><path d="M141.7,42.18 C134.48,66.5 121.11,111.58 111.62,143.55 " fill="none" id="BSP-&gt;C" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="118.32,145.56,105.92,162.74,104.9,141.58,118.32,145.56" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[c4724972b4ba11adc466286957bf362f]
+link BSP to SB--><path d="M150.44,42.25 C158.97,82.65 180.4,184.12 192.02,239.14 " fill="none" id="BSP-&gt;SB" style="stroke: #3C3C3C; stroke-width: 2.0;"/><polygon fill="none" points="198.92,237.94,196.2,258.96,185.22,240.84,198.92,237.94" style="stroke: #3C3C3C; stroke-width: 2.0;"/><!--MD5=[61dbb412ddb8d481b63e18a165e81070]
+@startuml packageStructureDatasetBase
+!include style.puml
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Dataset-Base" as DB #007aff
+rectangle "Portal-Base" as PB
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+C - -|> DB
+SB - -|> DB
+SB - -|> PB
+PB - -|> DB
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+@startuml packageStructureDatasetBase
+
+skinparam shadowing false
+
+skinparam RectangleBackgroundColor #3c3c3c
+skinparam RectangleBorderColor #3c3c3c
+skinparam RectangleFontColor white
+skinparam RectangleFontName Arial
+skinparam RectangleFontStyle bold
+
+skinparam NodeBackgroundColor #5f5e5e
+skinparam NodeBorderColor #3c3c3c
+skinparam NodeFontColor white
+skinparam NodeFontName Arial
+skinparam NodeFontStyle bold
+
+skinparam FolderBorderColor #3c3c3c
+skinparam FolderFontColor #3c3c3c
+skinparam FolderFontName Arial
+skinparam FolderFontStyle bold
+
+skinparam ArrowColor #3c3c3c
+skinparam ArrowThickness 2
+
+rectangle "Bridge-ShopwarePlatform" as BSP
+rectangle "Core" as C
+rectangle "Dataset-Base" as DB #007aff
+rectangle "Portal-Base" as PB
+rectangle "Storage-Base" as SB
+C - -|> SB
+C - -|> PB
+C - -|> DB
+SB - -|> DB
+SB - -|> PB
+PB - -|> DB
+BSP - - -|> C
+BSP - - -|> SB
+@enduml
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
